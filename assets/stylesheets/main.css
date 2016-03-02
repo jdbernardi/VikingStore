@@ -110,8 +110,27 @@ div {
 }
 
 
+/*
+  ===================================
+  Headers
+  ===================================
+*/
 
+.lower-header {
+  width: 100%;
+  background-color: rgb(205,205,204);
+  height: 72px;
+}
 
+.lower-header h2 {
+  text-align: center;
+  letter-spacing: .2em;
+  padding-top:20px;
+}
+
+.shadow {
+  text-shadow:3px 2px 2px rgba(0,0,0,0.3);
+}
 
 
 
@@ -143,6 +162,7 @@ div {
   background-repeat: no-repeat;
   background-position: 0 60%;
   opacity: .2;
+  border-bottom: 1px solid #FFF;
 }
 
 
