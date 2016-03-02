@@ -31,6 +31,10 @@ div {
   font-weight: 700;
 }
 
+.clear {
+  clear: both;
+}
+
 /*
   ===================================
   Grid
@@ -86,7 +90,8 @@ div {
 .navbar {
   height: 72px;
   width: 100%;
-  background-color: #C8DDFF;
+  background-color: rgb(205,205,204);
+  border-bottom: 1px solid #FFF;
 }
 
 .navbar h1 {
@@ -129,6 +134,18 @@ div {
   width:44px;
   vertical-align: middle;
 }
+
+.background-image {
+  height: 200px;
+  width: 100%;
+  background-size: cover; 
+  background-image: url('http://s3.amazonaws.com/viking_education/demos/viking_store_app/viking_ship_background_medium.jpg');
+  background-repeat: no-repeat;
+  background-position: 0 60%;
+  opacity: .2;
+}
+
+
 
 
 
