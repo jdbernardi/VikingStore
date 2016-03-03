@@ -241,13 +241,19 @@ body {
 }
 
 .item-image img {
-  width: 250px;
+  
   height: 167px;
   display: block;
   background-color: #CCC;
-  position: relative;
-  bottom:25px;
   margin: 0 auto;
+}
+
+.img-background {
+  width:250px;
+  height:167px;
+  background-color: #FFF;
+  position: relative;
+  bottom: 25px;
 }
 
 
