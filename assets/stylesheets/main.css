@@ -175,10 +175,10 @@ body {
   left:203px;
   z-index: 10;
   text-align: center;
-  vertical-align: middle;
   font-size: 16px;
   font-weight: bold;
   box-shadow: 1px 0px 5px;
+  padding-top: 3px;
 }
 
 
