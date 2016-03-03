@@ -21,6 +21,7 @@ body {
   font-family: 'Quicksand', Arial, sans-serif;
   margin:0 auto;
   color: #090F18;
+
 }
 
 .strong {
@@ -147,6 +148,8 @@ body {
   height:250px;
   background-color: #090F18;
   position: relative;
+  box-shadow: 1px 2px 3px;
+  margin-bottom: 10px;
 }
 
 .item-name {
@@ -170,7 +173,7 @@ body {
   font-weight: bold;
 }
 
-.inventory-wrapper .container{
+.inventory-wrapper .container {
   width:762px;
   margin:10px auto;
 }
@@ -249,6 +252,40 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+.page-navigation-container {
+  width: 960px;
+  height: 65px;
+  margin:0 auto;
+}
+
+#page-bar {
+  width: 500px;
+  margin:0 auto;
+  padding-top:2px;
+  
+}
+
+.pages li:first-child {
+  margin-left: 0;
+}
+
+.pages li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px 0 10px;
+
+}
+
+.pages li:last-child {
+  margin:0;
+}
+
+.pages .underline {
+  text-decoration: underline;
+  color: #4387FB;
+}
+
 
 
 
